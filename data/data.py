@@ -16,5 +16,3 @@ if df_missing_values.sum() > 0:
     df.fillna('None', inplace=True)
 
 df['Year'] = pd.to_datetime(df['Year'], format='%Y').dt.year
-
-print(df.describe())
