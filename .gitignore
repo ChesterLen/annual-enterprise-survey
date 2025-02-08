@@ -6,7 +6,7 @@ __pycache__
 
 test.py
 
-*.db
 *.sqlite
 *.sqlite3
 *.sql
+*.db
